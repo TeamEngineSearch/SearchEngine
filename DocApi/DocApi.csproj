@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\ErrorViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\DocApi.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\DocApi.RazorAssemblyInfo.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\DocApi.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\DocApi.RazorAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\DocApi.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Models\ErrorViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="DocApi.sln" />
+    <None Include="obj\Debug\netcoreapp3.1\DocApi.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\DocApi.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\DocApi.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\DocApi.RazorAssemblyInfo.cache" />
+    <None Include="obj\DocApi.csproj.nuget.g.props" />
+    <None Include="obj\DocApi.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\netcoreapp3.1\DocApi.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\netcoreapp3.1\DocApi.assets.cache" />
+    <None Include="obj\Release\netcoreapp3.1\DocApi.RazorAssemblyInfo.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\" />
+    <Folder Include="bin\Release\netcoreapp3.1\" />
+    <Folder Include="GUI\AutoComplete\" />
+    <Folder Include="GUI\Indexer\" />
+    <Folder Include="GUI\Ranker\" />
+    <Folder Include="GUI\Viewer\" />
+  </ItemGroup>
+
+</Project>
