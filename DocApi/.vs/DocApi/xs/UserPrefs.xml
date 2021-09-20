@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{1892596B-A06D-43EE-92DE-A9DEBD2F7FF6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/SearchController.cs">
+    <Files>
+      <File FileName="Startup.cs" Line="54" Column="1" />
+      <File FileName="Program.cs" Line="17" Column="51" />
+      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/UploadController.cs" Line="37" Column="25" />
+      <File FileName="Models/Upload.cs" Line="1" Column="6" />
+      <File FileName="Utils/GlobalUtils.cs" Line="49" Column="101" />
+      <File FileName="Controllers/SearchController.cs" Line="6" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DocApi" expanded="True">
+            <Node name="DocApi" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="SearchController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Utils" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DocApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

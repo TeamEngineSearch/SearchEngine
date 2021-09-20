@@ -4,17 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Models\ErrorViewModel.cs" />
-  </ItemGroup>
+  <!-- <ItemGroup> -->
+    <!-- <Compile Include="Models\ErrorViewModel.cs" /> -->
+  <!-- </ItemGroup> -->
 
   <ItemGroup>
     <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
-    <Compile Include="obj\Debug\netcoreapp3.1\DocApi.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\netcoreapp3.1\DocApi.RazorAssemblyInfo.cs" />
-    <Compile Include="obj\Release\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
-    <Compile Include="obj\Release\netcoreapp3.1\DocApi.AssemblyInfo.cs" />
-    <Compile Include="obj\Release\netcoreapp3.1\DocApi.RazorAssemblyInfo.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,11 +22,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <None Remove="Utils\" />
+    <None Remove="TikaOnDotnet.TextExtractor" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="DocApi.sln" />
-    <None Include="obj\Debug\netcoreapp3.1\DocApi.AssemblyInfoInputs.cache" />
     <None Include="obj\Debug\netcoreapp3.1\DocApi.assets.cache" />
-    <None Include="obj\Debug\netcoreapp3.1\DocApi.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\netcoreapp3.1\DocApi.RazorAssemblyInfo.cache" />
     <None Include="obj\DocApi.csproj.nuget.g.props" />
     <None Include="obj\DocApi.csproj.nuget.g.targets" />
     <None Include="obj\project.nuget.cache" />
@@ -42,6 +40,9 @@
 
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.13.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.19" />
+    <PackageReference Include="TikaOnDotnet.TextExtractor" Version="1.17.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -51,6 +52,7 @@
     <Folder Include="GUI\Indexer\" />
     <Folder Include="GUI\Ranker\" />
     <Folder Include="GUI\Viewer\" />
+    <Folder Include="Utils\" />
   </ItemGroup>
 
 </Project>

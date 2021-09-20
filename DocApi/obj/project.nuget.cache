@@ -1,19 +1,58 @@
 {
   "version": 2,
-  "dgSpecHash": "Xk3uSDNdpPwpOhMV4Kcs2gO5nD59ae3xdjsGYHebZIU4ijXvGQOusjUx3X8LQyDUcLP45LIUZDJl/Tq0tNUgDw==",
+  "dgSpecHash": "RY9FecljlC38XAuZ0hxLjHeZfm9GRL+R3/iRfBV8bGQjhP8tQD0QiPs9Ko0xb2kottBfLCY1+0o4YS7lfkS9uA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\SearchEngine\\DocApi\\DocApi.csproj",
+  "projectFilePath": "/Users/Ayomikun/Documents/projects/School Stuffs/SearchEngine/DocApi/DocApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\mongodb.bson\\2.13.1\\mongodb.bson.2.13.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\mongodb.driver\\2.13.1\\mongodb.driver.2.13.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\mongodb.driver.core\\2.13.1\\mongodb.driver.core.2.13.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.2\\mongodb.libmongocrypt.1.2.2.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    "/Users/Ayomikun/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/ikvm/8.1.5717/ikvm.8.1.5717.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/microsoft.aspnetcore.jsonpatch/3.1.19/microsoft.aspnetcore.jsonpatch.3.1.19.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/3.1.19/microsoft.aspnetcore.mvc.newtonsoftjson.3.1.19.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/mongodb.bson/2.13.1/mongodb.bson.2.13.1.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/mongodb.driver/2.13.1/mongodb.driver.2.13.1.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/mongodb.driver.core/2.13.1/mongodb.driver.core.2.13.1.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/mongodb.libmongocrypt/1.2.2/mongodb.libmongocrypt.1.2.2.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/sharpcompress/0.23.0/sharpcompress.0.23.0.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/tikaondotnet/1.17.1/tikaondotnet.1.17.1.nupkg.sha512",
+    "/Users/Ayomikun/.nuget/packages/tikaondotnet.textextractor/1.17.1/tikaondotnet.textextractor.1.17.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'IKVM 8.1.5717' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "IKVM",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TikaOnDotnet 1.17.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "TikaOnDotnet",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TikaOnDotnet.TextExtractor 1.17.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "TikaOnDotnet.TextExtractor",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
